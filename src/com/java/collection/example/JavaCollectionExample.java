@@ -19,17 +19,17 @@ public class JavaCollectionExample {
 		collection.add("Gaithersberg");
 		collection.add("Hagerstown");
 
-		System.out.println("");
+		System.out.println(""); // prints a new line
 		// prints all elements of a collection using advanced for loop
 		for(String element: collection) {
 			System.out.print(element.toUpperCase() + " ");
 		}
 
-		System.out.println("");
+		System.out.println(""); // prints a new line
 		// prints all elements of a collection using forEach method
 		collection.forEach(e -> System.out.print(e.toUpperCase() + " "));
 
-		System.out.println("");
+		System.out.println(""); // prints a new line
 		// prints all elements of a collection using an iterator
 		Iterator<String> iterator = collection.iterator();
 		while(iterator.hasNext()) {
